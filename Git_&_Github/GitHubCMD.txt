@@ -1,0 +1,7 @@
+
+1. Remotely conect your github repository with local git ripository
+ BY Run this in git repository path
+
+ --> git remote add origin https://github.com/84210maruf/InstalletionNotes.git
+ --> git branch -M main
+ --> git push -u origin main 

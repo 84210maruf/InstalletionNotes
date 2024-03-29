@@ -1,0 +1,4 @@
+1. Open command as administrator and Run "winget install --id Git.Git -e --source winget
+
+"
+OR Manually install from 'git.exe' file

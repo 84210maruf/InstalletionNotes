@@ -1,0 +1,34 @@
+1. Open terminal and run the command - -> 'winget install JanDeDobbeleer.OhMyPosh -s winget'
+
+	a. if found not recognize error run --> 'winget upgrade' or --> 'winget upgrade all'
+	and again run the "1." command 
+
+2. if installed vscode run this cmd --> 'code $profile'
+
+	a. initiate this line of code "oh-my-posh.exe init pwsh | Invoke-Expression" AND SAVE
+	b. restart terminal if show any error run this command --> 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser'
+	AND Restart terminal again
+
+4. downloade Font its might be(YOUR WUSH) 'JetBrain Mono Nord Font' link-->"https://www.nerdfonts.com/font-downloads"
+
+	a. open the downloded font folder and chose your likely fonts and pasete it into windows font
+
+and finaly go to terminal settings>font setting>change font as 'JetBrain Mono Nord Font'
+
+
+##########################thame add###################################
+
+1. Download theame as a JSON file form --> "https://ohmyposh.dev/docs/themes" 
+	[open it chose the theame , in github take the "row" code and save it as .json]
+	
+	a. and edite path in "2."[Note:code $profile] as like as ["oh-my-posh.exe init pwsh --config "C:\Users\maruf\OneDrive\Desktop\Terminal_themes\atomic.omp.json" | Invoke-Expression"]
+
+2. Run --> 'install-module -name terminal-icons -repository psgallery'
+	a. in "2." exicute the code 'Import-Module -Name Terminal-Icons'
+
+in the vs code add setting>font family-->###'JetBrainsmono nerd font', 'JetBrains Mono'###
+all set .... run terminal anywhary Only change font settings
+
+
+
+change the terminal font & icons get in terminal 'code $profile'
