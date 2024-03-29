@@ -1,0 +1,19 @@
+1. Open command as administrator and Run "winget install --id Git.Git -e --source winget
+
+"
+OR Manually install from 'git.exe' file
+
+################# GIT INTIALIZATION ##########################
+
+-->git init
+-->git config --global user.name "Username"
+-->git config --global usr.email "User@gmail.com"
+-->git commit -m "massage"
+##### with github ######
+ --> git remote add origin https://github.com/84210maruf/InstalletionNotes.git
+ --> git branch -M main
+ --> git push -u origin main 
+
+###############  random use CMD ####################
+
+-->git status
