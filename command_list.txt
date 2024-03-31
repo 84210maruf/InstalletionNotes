@@ -1,0 +1,71 @@
+[111]###########################[ CMD ]##############################
+
+dir/ls/cd/cd../mkdir/del/pwd/
+________________________________________________________________
+-->dir/ls OR 'ls childDirName'	       [#show instant path]
+
+-->cd folderName .\myFolder\foldername OR C:\path\folderName  [#open folder]
+
+-->cd..                                [#back to parrent path]
+-->mkdir name
+-->del name/name.txt
+-->winget install
+-->winget list
+-->pwd                                [#current path]
+-->
+-->
+_________________Write_Read_Copy_Move__________________________________________________
+-->echo >file.txt                  [#Write a file.txt and adding value THEN hi "ENTER"]
+-->echo >d:\folder\file1.txt       [#Write file from other Directory]
+
+-->more file.txt		           [#READ file ]
+
+-->cp <source> <destination>        [#COPY file to  others dir]
+    Ex.->cp file.txt C:\path\..  
+
+-->mv <source> <destination>        [#MOVE file to  others dir]
+   Ex.->cp file.txt C:\Full_path\..
+
+-->rm fileName OR C:\path\FileName                      [#REMOVE File]
+
+
+
+__________________________Advance_______________________________
+-->Get-PSDrive
+-->Get-PSDrive -PSProvider Filesystem
+-->
+
+[222]###########################[ git ]##############################
+
+________________________Intialization___________________________
+
+-->git init
+-->git config --global user.name "Username"
+-->git config --global usr.email "User@gmail.com"
+-->git commit -m "massage"
+_______________________________________________________________
+-->git status
+-->git branch
+-->git checkout branchName
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+
+[333]###########################[ github ]###########################
+________________________________________________________________
+--> git remote add origin https://github.com/84210maruf/InstalletionNotes.git
+--> git branch -M main
+--> git push -u origin main 
+--> git clone RepoLink..
+-->
+-->
+-->
+-->
+
